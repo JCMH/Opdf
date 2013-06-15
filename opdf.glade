@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
-  <requires lib="gtk+" version="2.24"/>
+  <requires lib="gtk+" version="2.22"/>
   <!-- interface-naming-policy project-wide -->
   <object class="GtkWindow" id="window1">
     <property name="can_focus">False</property>
@@ -16,24 +16,20 @@
           <object class="GtkMenuBar" id="menubar1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="ubuntu_local">True</property>
             <child>
               <object class="GtkMenuItem" id="menuitem1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Archivo</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
                   <object class="GtkMenu" id="menu1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="ubuntu_local">True</property>
                     <child>
                       <object class="GtkMenuItem" id="imagemenuitem1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Abrir</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -42,7 +38,6 @@
                       <object class="GtkMenuItem" id="imagemenuitem2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Cerrar</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -51,7 +46,6 @@
                       <object class="GtkMenuItem" id="imagemenuitem3">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Guardar como</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -60,7 +54,6 @@
                       <object class="GtkMenuItem" id="imagemenuitem4">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Renombrar</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -69,7 +62,6 @@
                       <object class="GtkMenuItem" id="menuitem8">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Imprimir</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -78,14 +70,12 @@
                       <object class="GtkSeparatorMenuItem" id="separatormenuitem1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                       </object>
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="imagemenuitem5">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Propiedades</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -94,14 +84,12 @@
                       <object class="GtkSeparatorMenuItem" id="separatormenuitem2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                       </object>
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem9">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Salir</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -114,19 +102,16 @@
               <object class="GtkMenuItem" id="menuitem2">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Ver</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
                   <object class="GtkMenu" id="menu2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="ubuntu_local">True</property>
                     <child>
                       <object class="GtkMenuItem" id="imagemenuitem6">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Página única</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -135,7 +120,6 @@
                       <object class="GtkMenuItem" id="imagemenuitem7">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Caras opuestas</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -144,7 +128,6 @@
                       <object class="GtkMenuItem" id="imagemenuitem8">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Vista de libro</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -153,7 +136,6 @@
                       <object class="GtkMenuItem" id="imagemenuitem9">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Mostrar páginas de forma continua</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -162,14 +144,12 @@
                       <object class="GtkSeparatorMenuItem" id="separatormenuitem3">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                       </object>
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem3">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Girar a la izquierda</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -178,7 +158,6 @@
                       <object class="GtkMenuItem" id="menuitem10">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Girar a la derecha</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -187,14 +166,12 @@
                       <object class="GtkSeparatorMenuItem" id="separatormenuitem4">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                       </object>
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem11">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Presentación</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -203,7 +180,6 @@
                       <object class="GtkMenuItem" id="menuitem12">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Pantalla completa</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -212,14 +188,12 @@
                       <object class="GtkSeparatorMenuItem" id="separatormenuitem5">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                       </object>
                     </child>
                     <child>
                       <object class="GtkCheckMenuItem" id="checkmenuitem1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Marcadores</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -228,7 +202,6 @@
                       <object class="GtkCheckMenuItem" id="checkmenuitem2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Mostrar barra de herramientas</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -237,14 +210,12 @@
                       <object class="GtkSeparatorMenuItem" id="separatormenuitem6">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                       </object>
                     </child>
                     <child>
                       <object class="GtkMenuItem" id="menuitem14">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Seleccionar todo</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -253,7 +224,6 @@
                       <object class="GtkMenuItem" id="menuitem15">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Copiar selección</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -266,20 +236,17 @@
               <object class="GtkMenuItem" id="menuitem4">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Zoom</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
                   <object class="GtkMenu" id="menu3">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="ubuntu_local">True</property>
                     <child>
                       <object class="GtkImageMenuItem" id="imagemenuitem10">
                         <property name="label">gtk-about</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="use_underline">True</property>
                         <property name="use_stock">True</property>
                       </object>
@@ -292,7 +259,6 @@
               <object class="GtkMenuItem" id="menuitem5">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Favoritos</property>
                 <property name="use_underline">True</property>
               </object>
@@ -301,7 +267,6 @@
               <object class="GtkMenuItem" id="menuitem6">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Configuración</property>
                 <property name="use_underline">True</property>
               </object>
@@ -310,7 +275,6 @@
               <object class="GtkMenuItem" id="menuitem7">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Ayuda</property>
                 <property name="use_underline">True</property>
               </object>
@@ -331,7 +295,6 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">Abrir</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-open</property>
@@ -346,7 +309,6 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">Imprimir</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-print</property>
@@ -360,7 +322,6 @@
               <object class="GtkToolItem" id="toolbutton3">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <child>
                   <object class="GtkLabel" id="label1">
                     <property name="visible">True</property>
@@ -378,7 +339,6 @@
               <object class="GtkToolItem" id="toolbutton4">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <child>
                   <object class="GtkEntry" id="entry1">
                     <property name="width_request">60</property>
@@ -401,7 +361,6 @@
               <object class="GtkToolItem" id="toolbutton5">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <child>
                   <object class="GtkLabel" id="label2">
                     <property name="visible">True</property>
@@ -420,7 +379,6 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">toolbutton6</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-go-back</property>
@@ -435,7 +393,6 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">toolbutton7</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-go-forward</property>
@@ -449,7 +406,6 @@
               <object class="GtkSeparatorToolItem" id="toolbutton8">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="use_action_appearance">False</property>
               </object>
               <packing>
                 <property name="expand">False</property>
