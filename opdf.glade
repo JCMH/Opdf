@@ -268,7 +268,10 @@
                       <object class="GtkMenuItem" id="menuitem13">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+<<<<<<< HEAD
                         <property name="use_action_appearance">False</property>
+=======
+>>>>>>> 691aff5f1b8a016eb7c18c16a5e0d12be421f802
                         <property name="label" translatable="yes">Ajustar a página</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -277,7 +280,10 @@
                       <object class="GtkMenuItem" id="menuitem16">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+<<<<<<< HEAD
                         <property name="use_action_appearance">False</property>
+=======
+>>>>>>> 691aff5f1b8a016eb7c18c16a5e0d12be421f802
                         <property name="label" translatable="yes">Tamaño real</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -286,7 +292,10 @@
                       <object class="GtkMenuItem" id="menuitem17">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+<<<<<<< HEAD
                         <property name="use_action_appearance">False</property>
+=======
+>>>>>>> 691aff5f1b8a016eb7c18c16a5e0d12be421f802
                         <property name="label" translatable="yes">Ajustar a ancho de página</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -295,7 +304,10 @@
                       <object class="GtkMenuItem" id="menuitem18">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+<<<<<<< HEAD
                         <property name="use_action_appearance">False</property>
+=======
+>>>>>>> 691aff5f1b8a016eb7c18c16a5e0d12be421f802
                         <property name="label" translatable="yes">Ajustar al contenido</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -304,7 +316,10 @@
                       <object class="GtkMenuItem" id="menuitem19">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+<<<<<<< HEAD
                         <property name="use_action_appearance">False</property>
+=======
+>>>>>>> 691aff5f1b8a016eb7c18c16a5e0d12be421f802
                         <property name="label" translatable="yes">Zoom personalizado</property>
                         <property name="use_underline">True</property>
                       </object>
