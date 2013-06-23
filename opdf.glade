@@ -20,6 +20,7 @@
               <object class="GtkMenuItem" id="menuitem1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Archivo</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
@@ -30,6 +31,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Abrir</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -38,6 +40,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Cerrar</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -46,6 +49,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem3">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Guardar como</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -54,6 +58,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem4">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Renombrar</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -62,6 +67,7 @@
                       <object class="GtkMenuItem" id="menuitem8">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Imprimir</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -76,6 +82,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem5">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Propiedades</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -90,6 +97,7 @@
                       <object class="GtkMenuItem" id="menuitem9">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Salir</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -102,6 +110,7 @@
               <object class="GtkMenuItem" id="menuitem2">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Ver</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
@@ -112,6 +121,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem6">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Página única</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -120,6 +130,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem7">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Caras opuestas</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -128,6 +139,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem8">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Vista de libro</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -136,6 +148,7 @@
                       <object class="GtkMenuItem" id="imagemenuitem9">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Mostrar páginas de forma continua</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -150,6 +163,7 @@
                       <object class="GtkMenuItem" id="menuitem3">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Girar a la izquierda</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -158,6 +172,7 @@
                       <object class="GtkMenuItem" id="menuitem10">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Girar a la derecha</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -172,6 +187,7 @@
                       <object class="GtkMenuItem" id="menuitem11">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Presentación</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -180,6 +196,7 @@
                       <object class="GtkMenuItem" id="menuitem12">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Pantalla completa</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -194,6 +211,7 @@
                       <object class="GtkCheckMenuItem" id="checkmenuitem1">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Marcadores</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -202,6 +220,7 @@
                       <object class="GtkCheckMenuItem" id="checkmenuitem2">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Mostrar barra de herramientas</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -216,6 +235,7 @@
                       <object class="GtkMenuItem" id="menuitem14">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Seleccionar todo</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -224,6 +244,7 @@
                       <object class="GtkMenuItem" id="menuitem15">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
                         <property name="label" translatable="yes">Copiar selección</property>
                         <property name="use_underline">True</property>
                       </object>
@@ -236,6 +257,7 @@
               <object class="GtkMenuItem" id="menuitem4">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Zoom</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
@@ -243,12 +265,48 @@
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>
-                      <object class="GtkImageMenuItem" id="imagemenuitem10">
-                        <property name="label">gtk-about</property>
+                      <object class="GtkMenuItem" id="menuitem13">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Ajustar a página</property>
                         <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem16">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Tamaño real</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem17">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Ajustar a ancho de página</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem18">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Ajustar al contenido</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem19">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Zoom personalizado</property>
+                        <property name="use_underline">True</property>
                       </object>
                     </child>
                   </object>
@@ -259,24 +317,145 @@
               <object class="GtkMenuItem" id="menuitem5">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Favoritos</property>
                 <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu4">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="ubuntu_local">True</property>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem20">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Añadir a favoritos</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem21">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Eliminar de favoritos</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem22">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Mostrar favoritos</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
               </object>
             </child>
             <child>
               <object class="GtkMenuItem" id="menuitem6">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Configuración</property>
                 <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu5">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="ubuntu_local">True</property>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem23">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Cambiar idioma</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem24">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Opciones</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem25">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Opciones avanzadas</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
               </object>
             </child>
             <child>
               <object class="GtkMenuItem" id="menuitem7">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">_Ayuda</property>
                 <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu6">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="ubuntu_local">True</property>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem26">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Visitar sitio Web</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem27">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Manual de instrucciones</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem28">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Buscar actualizaciones</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="separatormenuitem7">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem" id="menuitem29">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="label" translatable="yes">Acerca de...</property>
+                        <property name="use_underline">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
               </object>
             </child>
           </object>
@@ -295,6 +474,7 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">Abrir</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-open</property>
@@ -309,6 +489,7 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">Imprimir</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-print</property>
@@ -322,6 +503,7 @@
               <object class="GtkToolItem" id="toolbutton3">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <child>
                   <object class="GtkLabel" id="label1">
                     <property name="visible">True</property>
@@ -339,6 +521,7 @@
               <object class="GtkToolItem" id="toolbutton4">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <child>
                   <object class="GtkEntry" id="entry1">
                     <property name="width_request">60</property>
@@ -361,11 +544,12 @@
               <object class="GtkToolItem" id="toolbutton5">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <child>
                   <object class="GtkLabel" id="label2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">/    </property>
+                    <property name="label" translatable="yes">/ </property>
                   </object>
                 </child>
               </object>
@@ -379,6 +563,7 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">toolbutton6</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-go-back</property>
@@ -393,6 +578,7 @@
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
+                <property name="use_action_appearance">False</property>
                 <property name="label" translatable="yes">toolbutton7</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-go-forward</property>
